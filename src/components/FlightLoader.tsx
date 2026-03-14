@@ -79,9 +79,11 @@ export default function FlightLoader({ destinationName }: FlightLoaderProps) {
 
           {/* Animated airplane along the arc */}
           <motion.g
-            initial={{ offsetDistance: "0%" } as Record<string, unknown>}
-            animate={{ offsetDistance: "100%" } as Record<string, unknown>}
-            transition={{ duration: 1.6, ease: [0.4, 0, 0.2, 1], delay: 0.4 }}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            initial={{ offsetDistance: "0%" } as any}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            animate={{ offsetDistance: "100%" } as any}
+            transition={{ duration: 1.6, ease: [0.4, 0, 0.2, 1] as [number, number, number, number], delay: 0.4 }}
             style={
               {
                 offsetPath: "path('M 20 95 Q 180 -20 340 95')",

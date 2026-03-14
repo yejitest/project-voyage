@@ -13,7 +13,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "오사카 주유패스 1~2일권으로 지하철·관광지 자유 이용 추천" },
-      { category: "food", content: "타코야키·오코노미야키·구시카츠 — 길거리 음식 세 개가 오사카의 핵심" },
+      { category: "culture", content: "타코야키·오코노미야키·구시카츠 — 길거리 음식 세 개가 오사카의 핵심" },
       { category: "budget", content: "편의점·슈퍼마켓 도시락 300~500엔, 라멘 한 그릇 800엔 수준" },
       { category: "culture", content: "유니버설은 주말 혼잡 — 평일 아침 일찍 방문 권장, 익스프레스 패스 고려" },
       { category: "safety", content: "전반적으로 안전한 도시. 귀중품은 작은 가방에 나눠 보관 권장" },
@@ -29,7 +29,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "스이카 카드 충전 후 JR·도쿄 메트로 자유롭게 환승 가능" },
-      { category: "food", content: "라멘·스시·야키니쿠 등 전문점이 밀집한 신주쿠·긴자 방문 추천" },
+      { category: "culture", content: "라멘·스시·야키니쿠 등 전문점이 밀집한 신주쿠·긴자 방문 추천" },
       { category: "clothing", content: "봄(3~4월) 벚꽃 시즌에는 낮 15°C, 저녁은 쌀쌀 — 겉옷 필수" },
       { category: "culture", content: "사원·신사 방문 시 입구 수반에서 손 씻는 미소기 예절 준수" },
       { category: "budget", content: "도쿄 메트로 24시간 패스 600엔 — 하루 관광에 경제적" },
@@ -45,7 +45,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "옥토퍼스 카드로 MTR·버스·트램 통합 이용 — 공항에서 바로 발급" },
-      { category: "food", content: "아침 얌차(飲茶)는 반드시 경험할 것. 오전 11시 전 방문해야 줄 없이 이용 가능" },
+      { category: "culture", content: "아침 얌차(飲茶)는 반드시 경험할 것. 오전 11시 전 방문해야 줄 없이 이용 가능" },
       { category: "clothing", content: "22°C 온화한 날씨지만 실내 냉방이 강하므로 얇은 겉옷 지참 권장" },
       { category: "budget", content: "홍콩 달러 현금 소지 권장 — 소규모 노점·전통 식당은 현금 전용" },
       { category: "safety", content: "소매치기 주의 구역: 침사추이·몽콕 인파 밀집 지역에서 가방 앞으로 착용" },
@@ -61,7 +61,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "그랩(Grab) 앱으로 택시 호출 — 미터 조작 없이 투명한 요금" },
-      { category: "food", content: "미꽝(쌀국수)·반미(바게트 샌드위치)·화이트로즈 만두는 다낭·호이안 대표 먹거리" },
+      { category: "culture", content: "미꽝(쌀국수)·반미(바게트 샌드위치)·화이트로즈 만두는 다낭·호이안 대표 먹거리" },
       { category: "clothing", content: "26°C 열대 날씨. 모자·자외선 차단제 필수. 해변 이동 시 샌들 편리" },
       { category: "culture", content: "호이안 사원 방문 시 반바지·민소매 금지 — 입구에서 천 대여 가능" },
       { category: "budget", content: "현지 식당 한 끼 2~3만동(1,200~1,800원) 수준으로 매우 저렴" },
@@ -93,7 +93,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "이지링크 카드로 MRT·버스 통합 이용. 공항 MRT로 시내까지 30분" },
-      { category: "food", content: "호커센터에서 치킨라이스·락사·차크웨이테오 등 3~5SGD로 해결 가능" },
+      { category: "culture", content: "호커센터에서 치킨라이스·락사·차크웨이테오 등 3~5SGD로 해결 가능" },
       { category: "clothing", content: "30°C 열대. 실내 냉방 매우 강함 — 얇은 긴팔 필수 지참" },
       { category: "safety", content: "공공장소 흡연·껌 소지 금지. 무단횡단 벌금 있음 — 법규 준수 필수" },
       { category: "budget", content: "1 SGD ≈ 1,030원. 외식·교통 비싸지만 호커센터 활용 시 절약 가능" },
@@ -111,7 +111,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
       { category: "transport", content: "그랩·고젝 앱 필수. 오토바이 렌트는 국제면허 및 경험자에 한해 권장" },
       { category: "clothing", content: "30°C 열대. 사원 방문 시 사롱(천) 착용 의무 — 대부분 입구에서 무료 대여" },
       { category: "safety", content: "원숭이 숲에서 음식·안경·핸드폰 노출 주의 — 원숭이가 낚아챌 수 있음" },
-      { category: "food", content: "나시고렝(볶음밥)·미고렝(볶음면)·사테(꼬치) 현지 식당에서 저렴하게 즐기기" },
+      { category: "culture", content: "나시고렝(볶음밥)·미고렝(볶음면)·사테(꼬치) 현지 식당에서 저렴하게 즐기기" },
       { category: "budget", content: "스미냑·짐바란 레스토랑 단가 높음. 우붓 현지 식당은 30,000~60,000루피아 수준" },
     ],
   },
@@ -126,7 +126,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     tips: [
       { category: "transport", content: "오팔 카드로 기차·버스·페리 통합 이용. 공항 트레인으로 시내 13분" },
       { category: "clothing", content: "12~2월 여름(25°C), 6~8월 겨울(12°C). 방문 시기에 따라 옷차림 완전히 다름" },
-      { category: "food", content: "피시앤칩스·아보카도 토스트·플랫화이트 커피 — 시드니 식문화 3대 키워드" },
+      { category: "culture", content: "피시앤칩스·아보카도 토스트·플랫화이트 커피 — 시드니 식문화 3대 키워드" },
       { category: "budget", content: "외식 단가 높음. 피트 스트리트 마켓·푸드코트 활용 시 15~20 AUD로 해결" },
       { category: "safety", content: "자외선 강함 — SPF50+ 선크림 필수. 여름 해변 젤리피시 주의 안내 확인" },
     ],
@@ -141,7 +141,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "트램·지하철 24시간 티켓 120코루나로 무제한 이용 가능" },
-      { category: "food", content: "굴라시·돼지 무릎 구이(콜레뇨)·트르들로 — 체코 현지 요리 반드시 체험" },
+      { category: "culture", content: "굴라시·돼지 무릎 구이(콜레뇨)·트르들로 — 체코 현지 요리 반드시 체험" },
       { category: "budget", content: "유럽 최저 물가권. 펍 맥주 0.5L 50코루나(약 2,800원), 레스토랑 식사 200~350코루나" },
       { category: "clothing", content: "5°C 쌀쌀한 날씨. 두꺼운 코트·방한 레이어링 필수. 석조 도보 많아 편한 신발 권장" },
       { category: "safety", content: "관광지 주변 소매치기 주의. 카를교·구시가지 광장에서 지갑·핸드폰 노출 주의" },
@@ -157,7 +157,7 @@ const PLACES_BY_CITY: Record<string, { places: Place[]; tips: TravelTip[] }> = {
     ],
     tips: [
       { category: "transport", content: "T-Casual 10회권으로 지하철·버스·트램 통합 이용. 공항 버스 Aerobus 편리" },
-      { category: "food", content: "타파스·파에야·크로케타·하몽 이베리코 — 고딕 지구 바르에서 현지 식사" },
+      { category: "culture", content: "타파스·파에야·크로케타·하몽 이베리코 — 고딕 지구 바르에서 현지 식사" },
       { category: "clothing", content: "여름 22~30°C, 봄·가을 15~22°C. 자외선 강해 모자·선글라스 필수" },
       { category: "safety", content: "람블라스·바르셀로네타 소매치기 유럽 최고 수준. 가방 앞으로·지갑 앞주머니 보관" },
       { category: "culture", content: "카탈루냐 정체성 강함 — 스페인어보다 카탈루냐어 인사(Hola/Gràcies) 환영받음" },

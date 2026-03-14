@@ -190,9 +190,11 @@ export default function WorldMapArc({ destinationId, cityEn, flightHours }: Worl
 
         {/* Animated plane along arc */}
         <motion.g
-          initial={{ offsetDistance: "0%" } as Record<string, unknown>}
-          animate={{ offsetDistance: "100%" } as Record<string, unknown>}
-          transition={{ duration: 1.5, ease: [0.4, 0, 0.2, 1], delay: 0.3 }}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          initial={{ offsetDistance: "0%" } as any}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          animate={{ offsetDistance: "100%" } as any}
+          transition={{ duration: 1.5, ease: [0.4, 0, 0.2, 1] as [number, number, number, number], delay: 0.3 }}
           style={
             {
               offsetPath: `path('${arcPath}')`,
